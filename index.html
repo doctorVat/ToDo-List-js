@@ -18,18 +18,19 @@
         <button class='todo-button' type='submit'>
             <i class='fas fa-plus-square'></i>
         </button>
+
+        <div class="select">
+            <select name="todos" class="filter-todo">
+                <option value='all'>ALL</option>
+                <option value='completed'>Completed</option>
+                <option value='uncompleted'>Uncompleted</option>
+            </select>
+        </div>
+
     </form>
 
 <div class="todo-container">
-    <ul class='todo-list'>
-        <!-- <div class="todo">
-            <li clas='todo-item'></li>
-            <button 'complete-btn'>checked</button>
-            <button class='trash-btn'>delete</button>
-            
-        </div> -->
-
-    </ul>
+    <ul class='todo-list'></ul>
 </div>
 
 
@@ -38,3 +39,11 @@
     <script src='script.js'></script>
 </body>
 </html>
+
+
+<!-- <div class="todo">
+            <li clas='todo-item'></li>
+            <button 'complete-btn'>checked</button>
+            <button class='trash-btn'>delete</button>
+            
+        </div> -->
